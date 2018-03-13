@@ -212,6 +212,7 @@
 		{
 			"name": "Operators",
 			"scope": [
+				"keyword.other",
 				"keyword.operator"
 			],
 			"settings": {
@@ -223,7 +224,6 @@
 			// int, bool, enum, using, void, etc
 			"name": "Types",
 			"scope": [
-				"keyword.other",
 				"keyword.type",
 				"storage.type"
 			],
