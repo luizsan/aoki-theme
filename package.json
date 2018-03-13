@@ -1,0 +1,25 @@
+{
+    "name": "aoki",
+    "displayName": "Aoki",
+    "description": "Very simple color theme with teal accents and monokai inspired syntax highlighting",
+    "version": "0.0.3",
+    "publisher": "Luizsan",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Aoki",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Aoki-color-theme.json"
+            }
+        ]
+    },
+    "keywords": [
+        "aoki", "teal", "color", "theme", "monokai", "luizsan", "ls"
+    ]
+}
