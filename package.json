@@ -21,5 +21,14 @@
     },
     "keywords": [
         "aoki", "teal", "color", "theme", "monokai", "luizsan", "ls"
-    ]
+    ],
+    "icon": "images/main.png",
+    "homepage": "https://github.com/luizsan/aoki",
+    "bugs": {
+        "url": "https://github.com/luizsan/aoki/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/luizsan/aoki.git"
+    }
 }
