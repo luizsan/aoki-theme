@@ -6,12 +6,12 @@
 		"focusBorder": "#00000000",
 		"foreground": "#808080",
 		"widget.shadow": "#00000080",
-		"selection.background": "#403e41",
+		"selection.background": "#326496",
 		"errorForeground": "#ff527e",
 		// block quote
-		"textBlockQuote.background": "#64FFAA",
+		"textBlockQuote.background": "#2a3f3c",
 		"textBlockQuote.border": "#64FFAA",
-		"textCodeBlock.background": "#64FFAA",
+		"textCodeBlock.background": "#2a3f3c",
 		"textLink.activeForeground": "#64FFAA",
 		"textLink.foreground": "#64FFDA",
 		"textPreformat.foreground": "#64FFAA",
@@ -43,7 +43,6 @@
 		"list.invalidItemForeground": "#ff5b9a",
 		// activity bar
 		"activityBar.background": "#19181a",
-		"activityBar.dropBackground": "#64ffcb",
 		"activityBar.foreground": "#64ffcc",
 		"activityBarBadge.background": "#64FFDA",
 		"activityBarBadge.foreground": "#000000",
@@ -82,7 +81,6 @@
 		"editorBracketMatch.background": "#161616",
 		"editorBracketMatch.border": "#00000000",
 		// tabs
-		"editorGroup.background": "#161616",
 		"editorGroup.border": "#161616",
 		"editorGroup.dropBackground": "#161616d0",
 		"editorGroupHeader.noTabsBackground": "#2d2a2e",
@@ -138,7 +136,9 @@
 			"name": "Entities",
 			"scope": [
 				"entity.name",
-				"entity.other"
+				"entity.name.type.class",
+				"entity.name.type.namespace",
+				"entity.other",
 			],
 			"settings": {
 				"foreground": "#3affc4",
@@ -210,26 +210,29 @@
 			}
 		},
 		{
-			"name": "Operators",
-			"scope": [
-				"keyword.operator"
-			],
-			"settings": {
-				"foreground": "#ff88b5",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			// int, bool, enum, using, void, etc
 			"name": "Types",
 			"scope": [
 				"keyword.other",
 				"keyword.type",
-				"storage.type"
+				"storage.type",
+				"entity.name.type",
+				"entity.name.type.alias",
 			],
 			"settings": {
 				"foreground": "#59deff",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#ff88b5",
+				"fontStyle": "bold"
 			}
 		},
 		{

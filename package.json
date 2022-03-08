@@ -2,10 +2,10 @@
     "name": "aoki",
     "displayName": "Aoki",
     "description": "Very simple color theme with teal accents and monokai inspired syntax highlighting",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "publisher": "Luizsan",
     "engines": {
-        "vscode": "^1.21.0"
+        "vscode": "^1.65.0"
     },
     "categories": [
         "Themes"
