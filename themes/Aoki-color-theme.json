@@ -210,10 +210,20 @@
 			}
 		},
 		{
+			"name": "Operators",
+			"scope": [
+				"keyword.other",
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ff88b5",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			// int, bool, enum, using, void, etc
 			"name": "Types",
 			"scope": [
-				"keyword.other",
 				"keyword.type",
 				"storage.type",
 				"entity.name.type",
@@ -222,17 +232,6 @@
 			"settings": {
 				"foreground": "#59deff",
 				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Operators",
-			"scope": [
-				"keyword.operator",
-				"keyword.other"
-			],
-			"settings": {
-				"foreground": "#ff88b5",
-				"fontStyle": "bold"
 			}
 		},
 		{
